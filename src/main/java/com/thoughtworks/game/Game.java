@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class Game {
     int chances;
 
-    public Game() {
-    }
-
     public Game(int chances) {
         this.chances = chances;
     }

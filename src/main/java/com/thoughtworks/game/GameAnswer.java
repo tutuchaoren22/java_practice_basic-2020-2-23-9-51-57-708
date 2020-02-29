@@ -9,9 +9,6 @@ import java.util.Set;
 public class GameAnswer {
     private Set<Integer> gameAnswer;
 
-    public GameAnswer() {
-    }
-
     public GameAnswer(Set<Integer> gameAnswer) {
         this.gameAnswer = gameAnswer;
     }
@@ -70,10 +67,6 @@ public class GameAnswer {
             }
         }
         return countOfCorrectNumWrongPos;
-    }
-
-    public Set<Integer> getGameAnswer() {
-        return gameAnswer;
     }
 
     @Override
