@@ -12,7 +12,7 @@ import java.util.Set;
 
 public class ReadAnswerFromFile implements GenerateAnswer {
     private GameAnswer gameAnswer;
-    
+
     public GameAnswer getGameAnswer() {
         return gameAnswer;
     }
